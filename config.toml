@@ -1,28 +1,35 @@
-baseURL = "https://www.andrewbaker.uk"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Andrew Baker Blog"
-theme = "ananke"
-publishDir = "public"
+title = "Andrew Baker"
+theme = "m10c"
+paginate = 8
 
-
-SectionPagesMenu = "main"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
 
 [params]
-  favicon = ""
-  site_logo = ""
-  description = "The blog of Andrew Baker"
-  facebook = ""
-  twitter = ""
-  instagram = ""
-  youtube = ""
-  github = "https://github.com/andrewbaker-uk"
-  gitlab = ""
-  linkedin = "https://linkedin.com/in/andrewbaker4"
-  mastodon = ""
-  slack = ""
-  stackoverflow = ""
-  rss = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-dark-blue"
-  featured_image = ""
-  recent_posts_number = 2
+    author = "Andrew Baker"
+    description = "Ramblings of a System Administrator"
+      menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/andrewbaker-uk"
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/andrewbaker4"
