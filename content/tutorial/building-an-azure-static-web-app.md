@@ -1,7 +1,10 @@
 ---
 title: "Building an Azure Static Web App"
 date: 2021-03-16T23:40:15Z
+toc: true
 draft: false
+tags: ['azure', 'devops', 'tutorial']
+show_reading_time: true
 ---
 
 Azure Static Web Apps is a service which is currently in preview on Azure. Because its currently in preview, the service is free until it leaves preview. This basically gives you a website, SSL cert (curtesy of Microsoft) and free web hosting!
