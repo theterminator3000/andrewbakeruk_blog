@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Andrew Baker</title>
+    <link>https://www.andrewbaker.uk/posts/</link>
+    <description>Recent content in Posts on Andrew Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Mar 2021 23:40:15 +0000</lastBuildDate><atom:link href="https://www.andrewbaker.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Azure Static Web App</title>
+      <link>https://www.andrewbaker.uk/posts/building-an-azure-static-web-app/</link>
+      <pubDate>Tue, 16 Mar 2021 23:40:15 +0000</pubDate>
+      
+      <guid>https://www.andrewbaker.uk/posts/building-an-azure-static-web-app/</guid>
+      <description>Azure Static Web Apps is a service which is currently in preview on Azure. Because its currently in preview, the service is free until it leaves preview. This basically gives you an website, SSL cert (curtesy of Microsoft) and free web hosting!
+Azure Static Web Apps automatically builds and deploys a full stack web app from just an github repository. These apps only consist of a static web frontend, and an backend which uses Azure Functions.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://www.andrewbaker.uk/posts/hello-world/</link>
+      <pubDate>Tue, 16 Mar 2021 23:26:39 +0000</pubDate>
+      
+      <guid>https://www.andrewbaker.uk/posts/hello-world/</guid>
+      <description>Hello World! This is a blog written in Azure Static Web App</description>
+    </item>
+    
+  </channel>
+</rss>
