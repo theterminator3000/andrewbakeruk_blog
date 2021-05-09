@@ -2,6 +2,9 @@
 title = "About"
 +++
 
+## Training
+I'm currently working on getting ready to take the AZ-104 Azure Administrators Associates exam. My plans after are to take AZ-303 and AZ-304.
+
 ## Experience
 
 ### IT Specialist - South Hams District Council & West Devon Borough Council
