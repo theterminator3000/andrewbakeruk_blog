@@ -7,6 +7,9 @@ tags: ['azure', 'devops', 'tutorial']
 show_reading_time: true
 ---
 
+> Azure Static Web Apps might be leaving preview soon. There are going to be two different SKUs Free and Standard.![Azure Static Web Apps pricing in West Europe](/ASWA/azurestaticwebapppricing.png)
+
+
 Azure Static Web Apps is a service which is currently in preview on Azure. Because its currently in preview, the service is free until it leaves preview. This basically gives you a website, SSL cert (curtesy of Microsoft) and free web hosting!
 
 Azure Static Web Apps automatically builds and deploys a full stack web app from just a GitHub repository. These apps only consist of a static web frontend, and a backend which uses Azure Functions.
